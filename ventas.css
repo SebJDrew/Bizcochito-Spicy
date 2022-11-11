@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.header{
+    min-height: 4vh;
+    width: 100%;
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.main-link{
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    padding: 2% 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 20px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: rgb(226, 122, 122);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background:rgb(222, 197, 166);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.banner {
+    background-color: crimson;
+}
+.banner__content {
+    padding: 16px;
+    max-width: 100%;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+}
+
+.banner_logo{
+    text-align: center;
+}
+
+.nav-links2{
+    padding-top: 2%;
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links2 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 60px;
+    position: relative;
+}
+.nav-links2 ul li a{
+    color: rgb(218, 27, 84);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links2 ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background:rgb(162, 42, 82);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links2 ul li:hover::after{
+    width: 100%;
+}
+.banner__content {
+    max-width: 100%;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+}
+
+.container-fluid a {
+    color: #ffbf97;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.container-fluid a:hover {
+    color: #b36f46;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 1s;
+}
+.contenedor-titulo{
+    padding: 2% 0%;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.contenedor-titulo div{
+    height: 200px;
+    width: 300px;
+    background-color: crimson;
+}
+
+.contenedor-titulo figure {
+    position: relative;
+    height: 100px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.contenedor-titulo figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    border-radius: 10px
+}
+
+.contenedor-titulo figure h3{
+    color: rgb(226, 122, 122);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 10px
+}
+
+
+.Main{
+    min-height: 50vh;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+}
+
+.column {
+	float: left;
+	width: 30%;
+	padding: 0% 0%;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.contenedor1{
+    padding: 20% 5%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 30px;
+        
+}
+.contenedor1 figure{
+    position:absolute;
+    height: 500px;
+    width: 300px;
+    border-radius: 30px;  
+    overflow: hidden;
+    margin-left: 90px;
+ }
+
+.contenedor1 figure img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.contenedor1 h3{
+    text-align: auto;
+    margin-left: 390px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+
+.contenedor2{
+    padding: 20% 0%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 30px;
+    top: 100px;
+        
+}
+.contenedor2 figure{
+    position:absolute;
+    height: 500px;
+    width: 300px;
+    border-radius: 30px;  
+    overflow: hidden;
+ }
+
+.contenedor2 figure img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.contenedor3{
+    padding: 20% 0%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 30px;
+        
+}
+
+.contenedor3 div{
+    height: 200px;
+    width: 700px; 
+    background-color:crimson;
+    border-radius: 30px;
+}
+.contenedor3 figure{
+    position:relative;
+    height: 500px;
+    width: 600px;
+    border-radius: 30px;
+ }
+
+.contenedor3 figure img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.contenedor3 h3{
+    text-align: auto;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+.contenedor3 h2{
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.contenedor3 figure p{
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.contenedor3 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+.columnH {
+	float: left;
+	width: 20%;
+	padding: 0% 6%;
+}
+
+.tituloventa{
+    text-align: auto;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.contenedor4{
+    padding: 0% 0%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 30px;
+    left: 0;
+        
+}
+.contenedor4 figure{
+    position:absolute;
+    height: 300px;
+    width: 200px;
+    border-radius: 30px;  
+    overflow: hidden;
+    margin-left: 270px;
+ }
+
+.contenedor4 figure img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.contenedor4 h3{
+    text-align: auto;
+    margin-left: 0;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.contenedor5{
+    padding: 0% 0%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 30px;
+    left: 0;
+        
+}
+.contenedor5 figure{
+    position:absolute;
+    height: 300px;
+    width: 200px;
+    border-radius: 30px; 
+    overflow: hidden;
+    margin-left: 500px;
+ }
+
+.contenedor5 figure img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.contenedor5 h3{
+    text-align: auto;
+    margin-left: 0;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-align: auto;
+}
+.contenedor6{
+    padding: 0% 0%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 30px;
+    left: 0;
+        
+}
+.contenedor6 figure{
+    position:absolute;
+    height: 300px;
+    width: 200px;
+    border-radius: 30px; 
+    overflow: hidden;
+    margin-left: 40px;
+ }
+
+.contenedor6 figure img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.contenedor6 h3{
+    text-align: auto;
+    margin-left: 0;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.contenedor7{
+    padding: 20% 0%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 30px;
+        
+}
+.contenedor7 div{
+    height: 100px;
+    width: 100px; 
+    background-color:crimson;
+    border-radius: 30px;
+}
+.contenedor7 figure{
+    position:relative;
+    height: 100px;
+    width: 300px;
+    border-radius: 30px;
+    left: 1150px;
+ }
+
+.contenedor7 figure a{
+    color: #fff;
+    margin-left: 90px;
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.contenedor7 h3{
+    margin-top: 30%;
+    margin-left: 20%;
+}
+
+.contenedor7 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+
+
+footer{
+    min-height: 4vh;
+    width: 100%;
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    position: center;
+    float: left;
+}
+
+.footer_content {
+    padding: 16px;
+    max-width: 100%;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+}
+
+.footerb {
+    background-color: crimson;
+    padding: 16px;
+    max-width: 100%;
+    display:flex;
+    align-content: center;
+}
+.footerb p{
+    color: #fff;
+    margin-left: 45%;
+}
+.footerb .icons{
+    margin-left: auto;
+}
